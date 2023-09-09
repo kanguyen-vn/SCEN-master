@@ -1,4 +1,4 @@
-name: czsl
+name: czsl_scen
 channels:
   - pytorch
   - defaults
