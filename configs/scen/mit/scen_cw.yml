@@ -1,6 +1,6 @@
 ---
 experiment:
-  name: compcos_cw/mitstates
+  name: ecole/mitstates # compcos_cw/mitstates
 dataset:
   data_dir: mit-states
   dataset: mitstates
@@ -13,7 +13,7 @@ model_params:
   relu: false
   fc_emb: 768,1024,1200
   emb_dim: 600
-  emb_init: ft+w2v
+  emb_init: fasttext # ft+w2v
   image_extractor: resnet18
   train_only: true
   static_inp: false

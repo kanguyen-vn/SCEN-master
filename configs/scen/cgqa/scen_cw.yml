@@ -1,6 +1,6 @@
 ---
 experiment:
-  name: compcos_cw/cgqa/
+  name: ecole/cgqa # compcos_cw/cgqa/
 dataset:
   data_dir: cgqa
   dataset: cgqa
@@ -13,7 +13,7 @@ model_params:
   relu: false
   fc_emb: 768,1024,1200
   emb_dim: 300
-  emb_init: word2vec
+  emb_init: fasttext # word2vec
   image_extractor: resnet18
   train_only: true
   static_inp: false
